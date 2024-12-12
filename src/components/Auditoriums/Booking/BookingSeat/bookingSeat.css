@@ -1,0 +1,88 @@
+.bookingHours {
+    width: 380px;
+    padding: 0px 15px 15px;
+}
+
+.top__block {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+
+.back {
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.back:hover {
+    color: #3838c7;
+    transform: translateY(-2px);
+}
+.date {
+    cursor: pointer;
+}
+.hours__booking {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+.hourForBooking {
+    cursor: pointer;
+    padding: 10px 5px;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #757575;
+    color: #fff;
+    flex-basis: 20%;
+
+    transition: 0.2s all;
+}
+
+.hourForBooking:hover {
+    background-color: #1f1f1f;
+}
+.hourForBooking.booked {
+    pointer-events: none;
+    background-color: #a5a5a5; 
+ }
+.hourForBooking.selected {
+   background-color: #1f1f1f; 
+}
+.booking__hours__title {
+    font-size: 20px;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+}
+.selected__hours__title {
+    margin-bottom: 10px;
+}
+.hours__block {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.hour__block {
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #1f1f1f;
+    color: #fff;
+}
+
+.booking__btn.hidden {
+    pointer-events: none;
+    opacity: 0.65;
+}
+.booking__btn {
+    
+    border: 1px solid #323232;
+    max-width: 150px;
+    padding: 10px;
+    transition: 0.3s all;
+}
+.booking__btn:hover {
+    background-color: black;
+    color: #fff;
+}

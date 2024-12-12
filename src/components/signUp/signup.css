@@ -1,0 +1,45 @@
+.signup__form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 20px;
+}
+.sign__in__title {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.form__group {
+    display: flex;
+    flex-direction: column;
+    
+}
+.signup__label {
+    margin-bottom: 5px;
+}
+.form__group input {
+    width: 300px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1px solid #959595;
+    transition: 0.3s all;
+}
+.form__group input:focus {
+    border: 1px solid #000;
+}
+.signup__error {
+    margin-top: 2px;
+    font-size: 12px;
+    color: red;
+}
+.signup__btn {
+    padding: 10px;
+    border: 1px solid #000;
+    transition: 0.3s all;
+}
+
+.signup__btn:hover {
+   background-color: #000;
+   color:#fff;
+}
+

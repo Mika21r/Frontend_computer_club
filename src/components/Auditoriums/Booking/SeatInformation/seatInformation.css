@@ -1,0 +1,33 @@
+.seat__info__block {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    width: 380px;
+    padding: 0 15px 15px 15px;
+}
+.comupter__num {
+    padding: 15px 0px;
+}
+.computer__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border: 1px solid #323232;
+    border-radius: 2px;
+}
+.computer__info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.continue__btn {
+    border: 1px solid #323232;
+    max-width: 200px;
+    padding: 10px;
+    transition: 0.3s all;
+}
+.continue__btn:hover {
+    background-color: black;
+    color: #fff;
+}
