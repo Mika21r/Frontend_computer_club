@@ -3,7 +3,7 @@ import MyModal from "../UI/MyModal/MyModal";
 import { useContext, useState } from "react";
 import SignIn from "../SignIn/SignIn";
 import SignUp from "../signUp/SignUp";
-import { Context } from '../../main';
+import { Context } from '../../../main';
 import OtchetsService from "../../services/OtchetsService";
 import logo from '/public/Logo2.png';
 

@@ -1,7 +1,7 @@
 import { useForm } from 'react-hook-form';
 import "./signin.css";
 
-import {Context} from "../../main";
+import {Context} from "../../../main";
 import { useContext, useState } from 'react';
 
 const SignIn = ({setShowModal}) => {
