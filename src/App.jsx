@@ -5,7 +5,7 @@ import './styles/main.css';
 import BookingSeats from './pages/bookingSeats/BookingSeats';
 import AdminPanel from './pages/Admin/AdminPanel';
 import Header from './components/header/Header';
-import { Context } from '../main';
+import { Context } from './main';
 import MainPage from './pages/MainPage/MainPage';
 
 

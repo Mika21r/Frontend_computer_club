@@ -1,7 +1,7 @@
 import "./SeatInformation.css";
 
 import OtchetsService from "../../../../services/OtchetsService";
-import { Context } from "../../../../../main";
+import { Context } from "../../../../main";
 import { useContext } from "react";
 
 const SeatInformation = ({seatData, computerInfo, setBooked}) => {
