@@ -10,7 +10,7 @@ import MainPage from './pages/MainPage/MainPage';
 
 
 import {
-  createBrowserRouter,
+  createHashRouter,
   RouterProvider,
 } from "react-router-dom";
 
@@ -27,14 +27,14 @@ const App = observer(() => {
   const router = 
   store.isAuth && (store.userRoles.includes("ADMIN") || store.userRoles.includes("OWNER"))
   ?
-  createBrowserRouter([
+  createHashRouter([
     {
       path: "/",
       element: <AdminPanel/>
     },
   ])
   :
-  createBrowserRouter([
+  createHashRouter([
     {
       path: "/",
       element: <MainPage/>
