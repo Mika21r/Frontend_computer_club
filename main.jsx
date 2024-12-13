@@ -13,7 +13,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Context.Provider value={{
       store
     }}>
-      <h1>Hello word!</h1>
       <App />
     </Context.Provider>
   
