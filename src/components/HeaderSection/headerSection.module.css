@@ -1,8 +1,0 @@
-.HeaderSection {
-    height: 100svh;
-    background: linear-gradient( rgba(0, 0, 0, 0.98), rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.98) ), url("/public/2022-far-cry-6.jpg");
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size:  cover;
-    -o-background-size: cover;
-}
