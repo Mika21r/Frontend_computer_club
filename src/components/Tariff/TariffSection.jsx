@@ -33,7 +33,7 @@ export default function TariffSection() {
                                 <td>1000₽</td>
                                 <td>2399₽</td>
                             </tr>
-                            <tr>
+                            {/* <tr>
                                 <td>Премиум</td>
                                 <td>150₽</td>
                                 <td>320₽</td>
@@ -42,7 +42,7 @@ export default function TariffSection() {
                                 <td>910₽</td>
                                 <td>1030₽</td>
                                 <td>3399₽</td>
-                            </tr>
+                            </tr> */}
                             <tr>
                                 <td>VIP</td>
                                 <td>180₽</td>
@@ -51,7 +51,7 @@ export default function TariffSection() {
                                 <td>780₽</td>
                                 <td>950₽</td>
                                 <td>1100₽</td>
-                                <td>3999₽</td>
+                                <td>2999₽</td>
                             </tr>
                             </tbody>
                         </table>

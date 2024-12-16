@@ -1,0 +1,29 @@
+.AddressSection {
+    background: linear-gradient( rgba(0, 0, 0, 0.98), rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.98) ), url("/public/address_pict.jpg");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size:  cover;
+    -o-background-size: cover;
+    padding: 120px 180px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    padding: 0 0 20px;
+    color: #d91e37;
+    font-size: 48px;
+    margin-bottom: 40px;
+    line-height: 58px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+p{
+    max-width: 1000px;
+    padding: 20px 0;
+    color: #fff;
+    line-height: 160%;
+    font-size: 16px;
+}

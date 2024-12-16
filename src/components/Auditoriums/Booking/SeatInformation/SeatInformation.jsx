@@ -5,7 +5,7 @@ import { Context } from "../../../../main";
 import { useContext } from "react";
 
 const SeatInformation = ({seatData, computerInfo, setBooked}) => {
-    const {computerId, processor, videocard, headphones, keyboard, mouse, gamingChair} = computerInfo;
+    const {computerId, processor, videoCard, headphones, keyboard, mouse, gamingChair} = computerInfo;
     const {store} = useContext(Context);
 
     async function otchet() {
@@ -43,7 +43,7 @@ const SeatInformation = ({seatData, computerInfo, setBooked}) => {
                     Процессор: {processor}
                 </div>
                 <div className="videocard">
-                    Видеокарта: {videocard}
+                    Видеокарта: {videoCard}
                 </div>
                 <div className="headphones">
                     Наушники: {headphones}

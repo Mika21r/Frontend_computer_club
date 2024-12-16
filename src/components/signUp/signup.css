@@ -1,18 +1,23 @@
 .signup__form {
     display: flex;
     flex-direction: column;
+    background: linear-gradient( rgba(0, 0, 0, 0.98), rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.98) ), url("/public/sign_pic_3.jpg");
+    background-size: cover;
     row-gap: 20px;
-    padding: 20px;
+    padding: 40px;
+    border-radius: 18px;
+    color: #fff;
 }
 .sign__in__title {
     text-align: center;
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 32px;
+    font-weight: bold;
 }
 .form__group {
     display: flex;
     flex-direction: column;
-    
+    /* background: rgba(255,255,255,0.13); */
 }
 .signup__label {
     margin-bottom: 5px;
@@ -20,12 +25,13 @@
 .form__group input {
     width: 300px;
     padding: 8px 10px;
-    border-radius: 5px;
-    border: 1px solid #959595;
+    border-radius: 10px;
+    border-bottom: 1px solid #d91e37;
     transition: 0.3s all;
+    background: rgba(255,255,255,0.13);
 }
 .form__group input:focus {
-    border: 1px solid #000;
+    border: 1px solid #d91e37;
 }
 .signup__error {
     margin-top: 2px;
@@ -34,12 +40,13 @@
 }
 .signup__btn {
     padding: 10px;
-    border: 1px solid #000;
+    border-radius: 20px;
+    border: 1px solid #d91e37;
     transition: 0.3s all;
 }
 
 .signup__btn:hover {
-   background-color: #000;
+   background-color: #d91e37;
    color:#fff;
 }
 

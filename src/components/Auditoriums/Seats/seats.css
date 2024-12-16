@@ -5,13 +5,13 @@
 }
 
 .computer__icon {
-    fill: #7a1d1f;
+    fill: #d91e37;
     cursor: pointer;
     width: 40px;
     height: 40px;
     transition: 0.2s ease-in-out;
 }
 .computer__icon:hover {
-    fill: #af3032;
+    fill: #fff;
     transform: translateY(-4px);
 }

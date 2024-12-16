@@ -1,0 +1,7 @@
+.SlideSection {
+    padding: 120px 180px;
+    margin: 0 auto;
+    position: relative;
+    background: linear-gradient( rgba(0, 0, 0, 0.98), rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.98) )
+    /* background-color: #343534; */
+}

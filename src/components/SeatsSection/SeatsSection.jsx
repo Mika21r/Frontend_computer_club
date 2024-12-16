@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useFetching } from "../../hooks/useFetching";
-
+import logo from '/public/Logo2.png';
 import SeatsService from "../../services/SeatsService";
 import AuditoriumsService from "../../services/AuditoriumsService";
 import Auditoriums from "../Auditoriums/Auditoriums";
@@ -54,11 +54,11 @@ const SeatsSection = () => {
 
     return ( 
     <>
-        <section id="title">
+        <section id="title" className="Auditorum_back">
             <div className="container">
                 <main>
                     <div className="title__block">
-                        <h1 className="title">CYBER.PLUS</h1>
+                        <img src={logo} alt="logo"/>
                     </div>
 
                     <Auditoriums seatsForAuditoriums={seatsForAuditoriums}/>

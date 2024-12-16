@@ -32,7 +32,7 @@ const SignUp = ({setShowModal}) => {
             <div className="form__group">
                     <label className="signup__label">Имя</label>
                     <input 
-                        placeholder="Имя пользователя" 
+                        // placeholder="Имя пользователя" 
                         {...register("userName", {
                             required: "Это обязательное поле",
                             minLength : {
@@ -50,7 +50,7 @@ const SignUp = ({setShowModal}) => {
                 <div className="form__group">
                     <label className="signup__label" >Номер телефона</label>
                     <input 
-                        placeholder="Номер телефона" 
+                        // placeholder="Номер телефона" 
                         {...register("phoneNumber", {
                             required: "Это обязательное поле",
                             pattern: {
@@ -66,7 +66,7 @@ const SignUp = ({setShowModal}) => {
                 <div className="form__group">
                     <label className="signup__label">Email</label>
                     <input 
-                        placeholder="Email" 
+                        // placeholder="Email" 
                         {...register("email", {
                             required: "Это обязательное поле",
                             pattern: {
@@ -80,7 +80,7 @@ const SignUp = ({setShowModal}) => {
                 <div className="form__group">
                     <label className={"signup__label"}>Пароль</label>
                     <input 
-                        placeholder="Пароль"
+                        // placeholder="Пароль"
                         {...register("password", {
                             required: "Это обязательное поле",
                             pattern: {
@@ -96,7 +96,7 @@ const SignUp = ({setShowModal}) => {
                 <div className="form__group">
                     <label className="signup__label">Подтверждение пароля</label>
                     <input 
-                        placeholder="Подтвердить"
+                        // placeholder="Подтвердить"
                         {...register("confirmPass", {
                             required: "Это обязательное поле",
                             pattern: {

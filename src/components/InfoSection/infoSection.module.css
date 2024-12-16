@@ -1,9 +1,5 @@
-#InfoSection{
-    
-}
 .InfoSection {
-    height: 130svh;
-    padding: 120px 0;
+    padding: 120px 180px;
     margin: 0 auto;
     position: relative;
     background: linear-gradient( rgba(0, 0, 0, 0.98), rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.98) )
@@ -14,13 +10,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;   
+    padding: 20px 20px;   
     column-gap: 100px;
 }
 .Info_text h1{
     padding: 0 0 20px;
     color: #d91e37;
     font-size: 48px;
+    margin-bottom: 40px;
+    font-weight: 500;
 }
 .Info_text p{
     max-width: 1000px;
@@ -32,6 +30,7 @@
 .Info_pic img{
     max-height: 400px;
     width: auto;
+    box-shadow: 0 0 10px #d91e37a5;
 }
 .Info_blocks{
     display: flex;
@@ -42,11 +41,21 @@
 }
 .Info_block{
     border-radius: 50px;
+    position: relative;
+    z-index: 5;
     max-width: 500px;
     height: auto;
     color: #fff;
     background-color: #545454c7;
     padding: 20px;
+    box-shadow: 0 0 10px #d91e37a5;
+    transition: all .4s;
+}
+.Info_block:hover{
+    transform: scale(1.1);
+}
+.Info_block:hover .wrapper{
+    transform: scale(0.9);
 }
 .Info_block img{
     display: block;
@@ -57,12 +66,12 @@
 }
 .Info_block h2{
     text-align: center;
-    color: #000;
+    color: #d91e37;
     font-size: 20px;
     margin-bottom: 10px;
 }
 .Info_block p{
-    margin: 18px 0 30px;
+    margin: 20px 0;
     text-align: center;
     font-size: 16px;
 }

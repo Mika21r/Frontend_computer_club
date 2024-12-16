@@ -1,7 +1,5 @@
 import "./auditoriums.css";
-
 import { useState } from "react";
-
 import Seats from "./Seats/Seats";
 import MyModal from "../UI/MyModal/MyModal";
 import Booking from "./Booking/Booking";
@@ -16,7 +14,6 @@ const Auditoriums = ({seatsForAuditoriums}) => {
         setSeatData(seatData);
 
     }
-
     return ( 
         <>
             <div className="auditoriums__block">
@@ -35,11 +32,9 @@ const Auditoriums = ({seatsForAuditoriums}) => {
                     ?
                     <Booking seatData={seatData}/>
                     : ""
-                }
-                
+                } 
             </MyModal>
-        </>
-       
+        </> 
     );
 }
  

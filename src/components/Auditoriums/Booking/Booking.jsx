@@ -1,4 +1,4 @@
-import SeatInformation from "./SeatInformation/SeatInformation"
+import SeatInformation from "./SeatInformation/SeatInformation";
 import BookingSeat from "./BookingSeat/BookingSeat";
 import { useEffect, useState } from "react";
 import ComputerService from "../../../services/ComputersService";

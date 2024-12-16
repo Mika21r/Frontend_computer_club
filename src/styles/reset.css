@@ -40,9 +40,16 @@ aside, nav, footer, header, section, main {
 	display: block;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-optical-sizing: auto;
     font-size: inherit;
 	font-weight: inherit;
+}
+p{
+	font-family: "Lato", sans-serif;
+	font-optical-sizing: auto;
 }
 
 ul, ul li {

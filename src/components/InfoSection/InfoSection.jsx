@@ -28,21 +28,21 @@ export default function InfoSection() {
                     <div className={styles['Info_blocks']}>
                         <div className={styles['Info_block']}>
                             <div className={styles['block_pic']}><img src={first_block_pic} alt="block_pic"/></div>
-                            <h2>Высокая производительность</h2>
-                            <hr style={{width: '70%', backgroundColor: '#000', height: '1.25px', borderRadius: '5px'}} />
-                            <p>В нашем компьютерном клубе вы сможете поиграть многие популярные игры с максимальным комфортом, благодаря нашей высокопроизводительной технике</p>
+                            <h2>Производительность</h2>
+                            <hr style={{width: '80%', backgroundColor: '#d91e37', height: '1.25px', borderRadius: '5px'}} />
+                            <p>В нашем компьютерном клубе вы сможете поиграть во многие популярные игры с максимальным комфортом, благодаря нашей высокопроизводительной технике</p>
                         </div>
                         <div className={styles['Info_block']}>
                             <div className={styles['block_pic']}><img src={second_block_pic} alt="block_pic"/></div>
                             <h2>Экономичные цены</h2>
-                            <hr style={{width: '70%', backgroundColor: '#000', height: '1.25px', borderRadius: '5px'}} />
-                            <p>Здесь вы найдете лояльные цены и приятные цены. Благодаря низким ценам вы сможете провести больше среди любимых компьютерных игр, в комфортной обстановке</p>
+                            <hr style={{width: '80%', backgroundColor: '#d91e37', height: '1.25px', borderRadius: '5px'}} />
+                            <p>Здесь вы найдете лояльные и приятные цены. Благодаря низким ценам вы сможете провести дольше среди любимых компьютерных игр</p>
                         </div>
                         <div className={styles['Info_block']}>
                             <div className={styles['block_pic']}><img src={third_block_pic} alt="block_pic"/></div>
                             <h2>Удобное расположение</h2>
-                            <hr style={{width: '70%', backgroundColor: '#000', height: '1.25px', borderRadius: '5px'}} />
-                            <p>Все клубы находятся в удобном местоположениии. На доступном с домом расстоянии. Недалеко от клубов находятся автобусные остановки и метро</p>
+                            <hr style={{width: '90%', backgroundColor: '#d91e37', height: '1.25px', borderRadius: '5px'}} />
+                            <p>Компьютерный клуб находятся в удобном местоположении, на доступном от дома расстоянии. Недалеко от компьютерого клуба имеются автобусные остановки</p>
                         </div>
                     </div>
                 </div>

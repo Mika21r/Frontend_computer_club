@@ -1,6 +1,9 @@
 .bookingHours {
-    width: 380px;
-    padding: 0px 15px 15px;
+    width: 400px;
+    padding: 10px 30px 30px;
+    background: linear-gradient( rgba(0, 0, 0, 0.98), rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.98) ), url("/public/sign_pic_3.jpg");
+    background-size: cover;
+    border-radius: 20px;
 }
 
 .top__block {
@@ -11,14 +14,35 @@
 
 .back {
     cursor: pointer;
+    color: #fff;
     transition: 0.2s ease-in-out;
 }
 .back:hover {
-    color: #3838c7;
+    color: #d91e37;
     transform: translateY(-2px);
 }
 .date {
     cursor: pointer;
+    color: #fff;
+    box-shadow: none;
+}
+/* Стили для дня */
+input[type="date"]::-webkit-datetime-edit-day-field {
+    color: #fff;
+}
+
+/* Стили для месяца */
+input[type="date"]::-webkit-datetime-edit-month-field {
+    color: #fff;
+}
+
+/* Стили для года */
+input[type="date"]::-webkit-datetime-edit-year-field {
+    color: #fff;
+}
+/* Стили для иконки календаря */
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(100%); /* Инвертирует цвет иконки, чтобы сделать ее белой */
 }
 .hours__booking {
     display: flex;
@@ -32,22 +56,21 @@
     padding: 10px 5px;
     text-align: center;
     border-radius: 4px;
-    background-color: #757575;
+    background-color: #5b5b5bf3;
     color: #fff;
     flex-basis: 20%;
-
     transition: 0.2s all;
 }
 
 .hourForBooking:hover {
-    background-color: #1f1f1f;
+    background-color: #d91e37;
 }
 .hourForBooking.booked {
     pointer-events: none;
-    background-color: #a5a5a5; 
+    background-color: #4848489e; 
  }
 .hourForBooking.selected {
-   background-color: #1f1f1f; 
+   background-color: #d91e37; 
 }
 .booking__hours__title {
     font-size: 20px;
@@ -56,6 +79,7 @@
 }
 .selected__hours__title {
     margin-bottom: 10px;
+    color: #fff;
 }
 .hours__block {
     display: flex;
@@ -76,13 +100,14 @@
     opacity: 0.65;
 }
 .booking__btn {
-    
-    border: 1px solid #323232;
+    color: #fff;
+    border: 1px solid #d91e37;
+    border-radius: 20px;
     max-width: 150px;
     padding: 10px;
     transition: 0.3s all;
 }
 .booking__btn:hover {
-    background-color: black;
+    background-color: #d91e37;
     color: #fff;
 }

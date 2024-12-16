@@ -1,5 +1,16 @@
-.title__block {
-    text-align: center;
-    padding: 30px;
-    font-size: 30px;
+.title__block{
+    display: flex;
+    justify-content: center;
+    margin: 48px 0;
+}
+.title__block img{
+    max-height: 100px;
+    width: auto;
+}
+.Auditorum_back{
+    background: linear-gradient( rgba(0, 0, 0, 0.98), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.98) ), url("/public/auditoruims.jpeg");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size:  cover;
+    -o-background-size: cover;
 }

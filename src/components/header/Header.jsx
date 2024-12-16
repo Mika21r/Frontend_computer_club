@@ -60,8 +60,8 @@ const Header = () => {
                             </div>
                             :
                             <div className="btn__block">
-                                <button className="sign__in btn__sign" onClick={() => handlerChoise("signin")}>войти</button>
-                                <button className="sign__up btn__sign" onClick={() => handlerChoise("signup")}>зарегистрироваться</button>
+                                <button className="sign__in btn__sign" onClick={() => handlerChoise("signin")}>Войти</button>
+                                <button className="sign__up btn__sign" onClick={() => handlerChoise("signup")}>Зарегистрироваться</button>
                             </div>
                         }
                     </div>

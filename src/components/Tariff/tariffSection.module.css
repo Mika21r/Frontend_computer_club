@@ -1,9 +1,8 @@
 .TariffSection {
-    height: 100svh;
-    padding: 120px 0;
+    padding: 120px 180px;
     margin: 0 auto;
     position: relative;
-    background: linear-gradient( rgba(0, 0, 0, 0.98), rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.98) ), url("/public/dead-island-2-amy.png");
+    background: linear-gradient( rgba(0, 0, 0, 0.98), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.98) ), url("/public/tariff_pic.jpg");
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size:  cover;
@@ -13,23 +12,24 @@
     border-collapse: collapse;
     width: 100%;
     text-align: left;
-    margin-top: 80px;
+    margin-top: 60px;
 }
 .Tariff_table td{
     border-bottom: 1px solid #d91e37;
     color: #fff;
-    padding: 0 16px;
+    padding: 3px 16px;
     height: 40px;
     vertical-align: bottom;
 }
 .TariffSection table thead th{
     background-color: #d91e37;
     color: #fff;
-    padding: 0 16px;
+    padding: 3px 16px;
     height: 40px;
     vertical-align: middle;
 }
 .TariffSection h1{
     color: #d91e37;
     font-size: 48px;
+    font-weight: 500;
 }
