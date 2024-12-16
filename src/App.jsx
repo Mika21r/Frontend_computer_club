@@ -1,19 +1,16 @@
 import { useContext, useState, useEffect } from 'react';
 import {observer} from 'mobx-react-lite';
 import './styles/main.css';
-
 import BookingSeats from './pages/bookingSeats/BookingSeats';
 import AdminPanel from './pages/Admin/AdminPanel';
 import Header from './components/header/Header';
 import { Context } from './main';
 import MainPage from './pages/MainPage/MainPage';
 
-
 import {
-  createHashRouter,
+  createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-
 
 const App = observer(() => {
   const {store} = useContext(Context);
@@ -27,14 +24,14 @@ const App = observer(() => {
   const router = 
   store.isAuth && (store.userRoles.includes("ADMIN") || store.userRoles.includes("OWNER"))
   ?
-  createHashRouter([
+  createBrowserRouter([
     {
       path: "/",
       element: <AdminPanel/>
     },
   ])
   :
-  createHashRouter([
+  createBrowserRouter([
     {
       path: "/",
       element: <MainPage/>
@@ -53,8 +50,6 @@ const App = observer(() => {
     }
   ])
  
-
-  
   return (
     <>
       <RouterProvider router={router} />
